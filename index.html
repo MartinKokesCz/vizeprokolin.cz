@@ -14,21 +14,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 
 
-    
-<!-- favicons -->
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="./assets/favicon/site.webmanifest">
-<link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="./assets/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<!-- /favicons -->
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /favicons -->
 
 
 
@@ -38,300 +38,208 @@
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <img src="./assets/images/logo.svg" alt="Logo Pirátské strany">
-                <span class="fs-4">MS Kolín</span>
+                <img src="./assets/img/logo.svg" alt="Logo Pirátské strany">
+                <span class="fs-4 ml-5">&nbsp;&nbsp;MS Kolín</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Domů</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">XXX</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">YZ</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FFF</a></li>
-                <li class="nav-item"><a href="mailto:svatopluk.bocek@pirati.cz" class="btn btn-success">Chci kandidovat</a></li>
+                <li class="nav-item"><a href="mailto:svatopluk.bocek@pirati.cz" class="btn btn-success btn-lg"
+                        data-bs-toggle="modal" data-bs-target="#chci-kandidovat-modal">Chci
+                        kandidovat za Piráty</a></li>
             </ul>
+
+            <!-- Modal -->
+            <div class="modal fade" id="chci-kandidovat-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrC-rJo5UGxdrMuJ9Mj_bR2-3Ie9zRE-vW3fFwfY3l_bVkRQ/viewform?embedded=true" width="640" height="885" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </header>
     </div>
 
     <main>
 
         <section class="container">
-            <h1>PROGRAM PRO KOMUNÁLNÍ VOLBY 2022 – Kolín</h1>
-
-            <h2>Heslem komunálních voleb 2022 pro Kolín je: “Změna již proběhla, nyní je potřeba Vize”</h2>
-            <p>Poznámka autora: V Kolíně již dlouho a nutno říci úspěšně vládne Změna pro Kolín (STAN, jedním ze
-                zakladatelů
-                Vít Rakušan). Cílem je přesvědčit lidi, že změna již proběhla, tak proč volit Změnu. Změna pro Kolín je
-                funkční
-                a oblíbená, ale je udržovací stranou, bez střednědobých a dlouhodobých vizí. Vizi přináší Piráti Kolín
-                se
-                svým
-                programem.</p>
-
             <div class="row">
-                <div class="col col-12 col-lg-6 ">
-                    <div class="card card-body">
-                        <h2>INVESTICE</h2>
-                        <p>Samozřejmě je potřeba rekonstruovat cesty a kanalizace a opravovat parkány a hradby, ale vše
-                            jsou
-                            to
-                            investice udržovací, bez vize, jak bude město vypadat za několik let až desítek let a co
-                            bude
-                            potřebovat.
-                            Chceme prosadit takové investice, aby město bylo příjemným místem pro občany s ekologickým
-                            prostředím a
-                            nízkou energetickou náročností.</p>
+                <div class="col col-12 col-lg-6 mx-auto ">
 
-                        <h3>Energetická soběstačnost pro město i pro občany</h3>
-                        <h4>Co to znamená pro mě?</h4>
-                        <p>Příjemné a cenově stabilní teplo bez kouřících komínů, práce pro místní a v
-                            dlouhodobém měřítku úspory v rozpočtu.</p>
+                    <img class="img-fluid my-5" src="./assets/img/odvaha_delat_co_je_spravne.png">
 
-                        <p>Zajištění dotací na nízkoemisní energetické zdroje tepla pro město a občany.</p>
+                    <h1 class="text-center my-5">PROGRAM ČESKÉ PIRÁTSKÉ STRANY<br>PRO KOMUNÁLNÍ VOLBY V KOLÍNĚ 2022</h1>
 
-                        <p><button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#investice-energie" aria-expanded="false"
-                                aria-controls="collapseExample">
-                                Jak toho chceme dosáhnout?
-                            </button></p>
-
-                        <div id="investice-energie" class="collapse">
-
-
-
-
-                            Investice do solárních panelů na střechách budov ve správě města (např. plavecký
-                            stadion)
-                            tak,
-                            aby byly
-                            efektivní a nenarušili vzhled města. Zateplování budov v majetku města, hledání
-                            energetických
-                            úspor.
-
-
-                        </div>
-
-                        <h3>Elektromobilita, připravme se na budoucnost</h3>
-                        <p>Ať se nám to líbí nebo ne, snahou EU je rozšířit elektrická auta do všech států unie. Až za
-                            několik
-                            let
-                            budou auta cenově dostupná a lidé je začnou nakupovat ve větším množství, bude pro město
-                            pozdě
-                            reagovat.
-                            Našim
-                            záměrem je vypracovat projekt, jak by se měl nástup elektromobility řešit v Kolíně, zjistit
-                            rozsah a
-                            kapacitu
-                            energetických sítí, zjistit jak tento trend řeší v zahraničí a již dopředu vytvořit
-                            strategii,
-                            která
-                            se
-                            bude
-                            moci použít, až na ni přijde čas. 
-                            Co to znamená pro Vás: Až si jednou budete chtít koupit elektrické auto, budete vědět, že v
-                            Kolíně
-                            si ho
-                            nabijete.</p>
-                    </div>
-                </div>
-
-                <!-- MĚSTO PRO ŽIVOT -->
-                <div class="col col-12 col-lg-6">
-                    <div class="card card-body">
-                        <h2>MĚSTO PRO ŽIVOT</h2>
-                        <p>Město by mělo svým občanům zabezpečovat služby tak, aby byly všem dostupné. Od škol a školek,
-                            přes
-                            relaxaci a
-                            sport, kulturu až po bezpečnost a dostupnost zdravotní péče.</p>
-
-                        <h3>Vzdělávání 21. století</h3>
-                        <p>Chceme prosadit vzdělávání pro 21. století. Pro příklad nemusíme chodit daleko. Na
-                            Kutnohorsku
-                            probíhá
-                            Eduzměna
-                            a ohlasy jsou pozitivní. Eduzměna pracuje hlavně s učiteli, aby chápali potřeby žáků v
-                            moderním
-                            světě,
-                            znali
-                            nové výukové metody a postupy a vše prakticky aplikovali ve svých školách.
-                            Co to znamená pro Vás: Vaše děti budou lépe připraveni na život v rychlém a měnícím se 21.
-                            století.
-                            Budou se
-                            více orientovat ve službách města a státu a budou umět komunikovat.</p>
-
-                        <h3>Dostupné školky</h3>
-
-                        <p>Chceme nastavit flexibilní systém otevírání nových tříd školek v závislosti na poptávce.
-                            Bohužel
-                            každý
-                            rok jsou
-                            potřeby jiné ať díky přirozené migraci tak porodností a současný systém nedokáže na tyto
-                            změny
-                            pružně
-                            reagovat.</p>
-                        Co to znamená pro Vás: Až budete mít syna nebo dceru a budete pro ně hledat místo ve školce,
-                        budete
-                        vědět, že to
-                        místo najdete. Vyděláte na tom vy i město.
-                        Bezpečnost a sociální vyloučení
-                        Sociální vyloučení, chudoba, disfunkční rodiny a drogové závislosti jsou živnou půdou
-                        kriminality.
-                        Včasné řešení
-                        a prevence jsou jediným dlouhodobě účinným nástrojem jak těmto problémům předcházet.
-                        Město nesmí nečinně přihlížet nebo dokonce podporovat sestěhovávání sociálně slabých obyvatel do
-                        jednoho
-                        místa. 
-                        Budeme podporovat dostupnost sociálních služeb, činnost asistentů prevence kriminality a
-                        terénních
-                        sociálních
-                        pracovníků.
-                        Za důležité pokládáme dostupné bydlení pro mladé rodiny, seniory a lidi v bytové nouzi. Město
-                        musí
-                        mít
-                        k dispozici dostatečný bytový fond, který musí rozumně obhospodařovat.
-                        Co to znamená pro Vás: V Kolíně nebudou takzvané “no go zóny”, kde se člověk nejenom po setmění
-                        bojí
-                        projít.
-                        Bezpečnost pro příjemnou procházku večerním městem
-                        Kolín je místo, které pracuje ve větším měřítku s drogově závislými lidmi. Těch lidí je nám líto
-                        a
-                        potřebují
-                        pomoci, na druhou stranu tito lidé mají přístup k drogám a určitě si pro ně nejezdí někam
-                        daleko.
-                        Chceme
-                        spolupracovat s bezpečnostními složkami státu, abychom předcházeli nárůstu drogově závislých
-                        jedinců
-                        a
-                        abychom
-                        co nejvíce zamezili prodeji drog na území města. Prostě je potřeba pochytat drogové dealery.
-                        Co to znamená pro Vás: Méně feťáků a injekčních stříkaček. Méně investic do řešení problémů,
-                        kterým
-                        se
-                        dá
-                        předcházet.
-                        Více sportovišť, více sportu, více zdraví
-                        Ke sportu je potřeba vést děti od malička. V dnešním uspěchaném světě plném počítačů a mobilů je
-                        potřeba
-                        dětem
-                        ukázat i radost z pohybu a přírody. Podpora všech druhů sportů je pro nás prioritou. 
-                        Renovace lesů v majetku a na území města, aby procházka lesem byla potřebným relaxem po náročném
-                        dni.
-                        Co to znamená pro Vás: Větší šance žít delší a spokojenější život.
-                    </div>
-                </div>
-                <!-- / MĚSTO PRO ŽIVOT -->
-
-                <div class="col col-12 col-lg-6">
-                    <div class="card card-body">
-                        <h2>AUTEM TAM A ZASE ZPÁTKY</h2>
-                        Inteligentní doprava pro plynulý průjezd Kolínem
-                        Každé město se potýká s dopravními problémy a také s nedostatkem parkovacích míst. Když se města
-                        stavěla, nikdo
-                        nepočítal s takovou intenzitou dopravy a tolika auty. V současné době se čím dál více používá
-                        umělá
-                        inteligence.
-                        Semafory a další prvky dopravy se dají řídit umělou inteligencí podle hustoty provozu z
-                        jednotlivých
-                        směrů.
-                        Navrhujeme zjištění všech možností, jak nám můžou technologie 21. století pomocí v řízení
-                        dopravy,
-                        MHD,
-                        autobusů
-                        a chodců.
-                        Co to znamená pro Vás: Úspora času, přejet 3 km za půl hodiny není to, co chcete.
-                        Jistota, že zaparkujete, až přijedete z práce nebo nákupu
-                        Zní to až utopisticky, ale je to možné. Chceme vypracovat studii počtu parkovacích míst u
-                        panelových
-                        sídlišť a
-                        každé bytové jednotce přiřadit parkovací místo. Budete mít vždy jistotu, že zaparkujete.
-                        Samozřejmě
-                        budou i
-                        místa pro další auta v rodině.
-                        Co to znamená pro Vás: Když budete potřebovat rychle na deset minut odjet, budete odjíždět bez
-                        strachu,
-                        kdo tam
-                        za tu chvilku zaparkuje místo Vás.
-                        Více cyklostezek pro větší bezpečí jak cyklistů, tak na silnicích
-                        Cyklostezky by neměly být vedeny po komunikaci s hustým provozem s ohledem na bezpečí všech. Je
-                        potřeba
-                        najít
-                        řešení, kdy cyklostezky budou mít svoji komunikaci. Doprava bude rychlejší, bezpečnější a
-                        pravděpodobně
-                        ubude i
-                        řidičů.
-                        Co to znamená pro Vás: Bezpečí ať jste na kole nebo v autě. Menší provoz.
-                        PODNIKÁNÍ
-                        Všichni si chceme v centru nakoupit vše potřebné, zajít si na masáž, ke kadeřníkovi a dát si
-                        oběd
-                        nebo
-                        kafe.
-                        Chceme tuto různorodost a obchody a služby ve městě podporovat. Nechceme už další supermarkety,
-                        chceme
-                        živé
-                        město. Budeme se snažit i úpravou širšího prostranství města, aby bylo místem pro lidi a
-                        podnikatele.
-                        Co to znamená pro Vás: za kvalitními službami nemusíte cestovat do krajských měst.
-                    </div>
-                </div>
-                <div class="col col-12 col-lg-6">
-                    <div class="card card-body">
-                        <h2>Kultura kde ?????</h2>
-                        By to chtělo nějak přijatelně formulovat, že chceme podporovat a vytvářet umění ve městě. Kolín
-                        je
-                        hrdý
-                        na těch
-                        pár památek které má ale v současné době zde nerostou skoro žádné architektonicky hodnotné
-                        stavby a
-                        zásahy města
-                        do vlastního majetku jsou často likvidační (Viz. mestský chudobinec s pseudorenesanční fasádou
-                        který
-                        se
-                        proměnil
-                        v barevnou kostku domova důchodců  obloženou polystyrenem)  
-                        Požadavek na developery aby určitá část rozpočtu směřovala i na zvelebení okolí - umění. Od
-                        revoluce
-                        nedošla k
-                        mnoha realizacím jak obohatit veřejný prostor o něco krásného co by rozjasnilo den. Žijeme v
-                        zajetí
-                        „šumperáků“,
-                        paneláků a ruzných montovaných hal které jsou naše pracoviště a nebo supermarkety. Zelené a
-                        čisté
+                    <h2 class="mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-piggy-bank" viewBox="0 0 16 16">
+                            <path
+                                d="M5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm1.138-1.496A6.613 6.613 0 0 1 7.964 4.5c.666 0 1.303.097 1.893.273a.5.5 0 0 0 .286-.958A7.602 7.602 0 0 0 7.964 3.5c-.734 0-1.441.103-2.102.292a.5.5 0 1 0 .276.962z" />
+                            <path fill-rule="evenodd"
+                                d="M7.964 1.527c-2.977 0-5.571 1.704-6.32 4.125h-.55A1 1 0 0 0 .11 6.824l.254 1.46a1.5 1.5 0 0 0 1.478 1.243h.263c.3.513.688.978 1.145 1.382l-.729 2.477a.5.5 0 0 0 .48.641h2a.5.5 0 0 0 .471-.332l.482-1.351c.635.173 1.31.267 2.011.267.707 0 1.388-.095 2.028-.272l.543 1.372a.5.5 0 0 0 .465.316h2a.5.5 0 0 0 .478-.645l-.761-2.506C13.81 9.895 14.5 8.559 14.5 7.069c0-.145-.007-.29-.02-.431.261-.11.508-.266.705-.444.315.306.815.306.815-.417 0 .223-.5.223-.461-.026a.95.95 0 0 0 .09-.255.7.7 0 0 0-.202-.645.58.58 0 0 0-.707-.098.735.735 0 0 0-.375.562c-.024.243.082.48.32.654a2.112 2.112 0 0 1-.259.153c-.534-2.664-3.284-4.595-6.442-4.595zM2.516 6.26c.455-2.066 2.667-3.733 5.448-3.733 3.146 0 5.536 2.114 5.536 4.542 0 1.254-.624 2.41-1.67 3.248a.5.5 0 0 0-.165.535l.66 2.175h-.985l-.59-1.487a.5.5 0 0 0-.629-.288c-.661.23-1.39.359-2.157.359a6.558 6.558 0 0 1-2.157-.359.5.5 0 0 0-.635.304l-.525 1.471h-.979l.633-2.15a.5.5 0 0 0-.17-.534 4.649 4.649 0 0 1-1.284-1.541.5.5 0 0 0-.446-.275h-.56a.5.5 0 0 1-.492-.414l-.254-1.46h.933a.5.5 0 0 0 .488-.393zm12.621-.857a.565.565 0 0 1-.098.21.704.704 0 0 1-.044-.025c-.146-.09-.157-.175-.152-.223a.236.236 0 0 1 .117-.173c.049-.027.08-.021.113.012a.202.202 0 0 1 .064.199z" />
+                        </svg> PENÍZE</h2>
+                    <p>
+                    <h3>Uspoříme Vám i městu peníze na energiích</h3>
+                    </p>
+                    <p>Nakoupíme z evropských dotací solární panely a dáme je na střechy městských budov (např.
+                        plavecký
+                        stadion) aby byly efektivní, ale nerušili vzhled. Zateplíme budovy v majetku města,
+                        najdeme
+                        energetické úspory.&nbsp;</p>
+                    <p>
+                    <h3>Připravíme město na budoucnost</h3>
+                    </p>
+                    <p>Ať se nám to líbí nebo ne, snahou EU je rozšířit elektrická auta do všech států unie. Až
+                        za
+                        několik let budou auta cenově dostupná a začnou se kupovat vě větším množství bude pro
                         město
-                        Zasadíme se o Krajinný plán s přesahem a návazností na okolní krajinu. Zasadíme se o celkovou
-                        koncepci
-                        vegetace
-                        města.
-                        Vyhlásíme boj světelnému smogu. Odstraníme nejkřiklavější případy, kdy veřejné osvětlení svítí
-                        do
-                        všech
-                        směrů a
-                        dokonce i na zem. Světlo má svítit když chodec prochází, nesmí plýtvat energií celou noc.
-                        Budeme dbát o rozvoj přírody ve městě. Každý park, dokonce i Kmochův ostrov, má svůj charakter,
-                        který
-                        budeme
-                        chránit a rozvíjet.
-                    </div>
-                </div>
-                <div class="col col-12 col-lg-6">
-                    <div class="card card-body">
-                        <h2>Odpovědné město</h2>
-                        Smartcity je koncept pro chytrá města, ale Kolín musí být odpovědným městem (responsible city).
-                        Nedovolíme, aby
-                        se smartcity stala záminkou pro nesmyslné vyhazování peněz za zbytečné digitální hračky.
-                        Otevřená data, která umožní např. tvorbu užitečných aplikací (vytíženost přepážek a úředníků,
-                        statistické údaje
-                        a jejich porovnání s ostatními městy, online stav dopravy, ...).
-                        Postupný přechod na svobodný (open source) software – ve spolupráci s “Otevřenými městy” - a to
-                        tak,
-                        aby
-                        na něm
-                        město dlouhodobě ušetřilo.
-                    </div>
+                        pozdě reagovat. Vyřešíme nástup elektromobylity v Kolíně a zajistíme kapacitu
+                        energetických
+                        sítí.</p>
+
+
+                    <h2 class="mt-5"><img width="32" height="32" src="assets/img/dopravni-obsluznost.png"
+                            alt="Ikona pro sekci dopravní obslužnost">&nbsp;&nbsp;DOPRAVA</h2>
+                    <p>
+                    <h3>Projeďme Kolínem rychleji</h3>
+                    </p>
+                    <p>Přivedeme do Kolína moderní technologie, které budou řídit provoz a to znamená, že
+                        nebudeme
+                        zbytečně&nbsp;dlouho čekat na červené. Zlepšíme průjezd městem o 30%.</p>
+                    <p>
+                    <h3>Jistota, že zaparkujete, až přijedete z práce nebo nákupu</h3>
+                    </p>
+                    <p>Už se nemusíte bát, že nezaparkujete. Zařídíme jistotu parkování na sídlištích tí, že
+                        přiřadíme
+                        každé bytové jednotce parkovací místo. Budete mít vždy jistotu, že zaparkujete.</p>
+                    <p>
+                    <h3>Více cyklostezek pro větší bezpečí</h3>
+                    </p>
+                    <p>Cyklostezky budou mít svoji komunikaci. Cyklisty a koloběžkám dostaneme do bezpečí a
+                        řidičům
+                        zároveň zajistíme plynulejší dopravu bez nervů.<br></p>
+
+
+                    <h2 class="mt-5"><img width="32" height="32" src="assets/img/vzdelavani.png"
+                            alt="Ikona pro sekci vzdělávání">&nbsp;&nbsp;VZDĚLÁVÁNÍ</h2>
+                    <p>
+                    <h3>Vzdělávání pro 21. století</h3>
+                    </p>
+                    <p>Prosadíme nový styl vzdělávání. Zavedeme do všech kolínských škol nové moderní
+                        výukové&nbsp;metody, zaškolíme učitele, aby chápali potřeby žáků a připravili je na život v
+                        rychlém a měnícím se 21. století.&nbsp;</p>
+                    <p>
+                    <h3>Dostupné školky pro naše nejmenší</h3>
+                    </p>
+                    <p>Zajistíme dostatek míst ve školkách, postavíme novou školku, seženeme učitele a učitelky. Rodiče
+                        se tak budou moci věnovat své práci naplno.</p>
+                    <h2 class="mt-5"><img width="32" height="32" src="assets/img/bezpecnost.png"
+                            alt="Ikona pro sekci dopravní obslužnost">&nbsp;&nbsp;BEZPEČNOST</h2>
+                    <p>
+                    <h3>Nebezpečná místa</h3>
+                    </p>
+                    <p>Budeme aktivně hlídat prostory kolem ubytoven a podobných méně bezpečných míst. Klíčové je
+                        předcházet kriminalitě a rychlá reakce policie.</p>
+                    <p>
+                    <h3>Drogy</h3>
+                    </p>
+                    <p>Drogově závislí potřebují naši&nbsp;pomoc, ale před závislostí&nbsp;je potřeba i prevence.
+                        Pochytáme drogové dealery a přesuneme centra drogově závislých z centra města.</p>
+                    <h2 class="mt-5"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 1167.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+                            <metadata>
+                                Created by potrace 1.15, written by Peter Selinger 2001-2017
+                            </metadata>
+                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000"
+                                stroke="none">
+                                <path
+                                    d="M9270 12789 c-229 -29 -473 -124 -657 -256 -272 -194 -468 -494 -539 -825 -25 -114 -25 -369 -1 -491 94 -472 445 -861 918 -1021 167 -56 260 -70 459 -70 199 0 292 14 459 70 400 135 727 449 864 829 50 141 70 257 71 425 1 176 -11 259 -59 406 -165 505 -614 864 -1166 934 -96 12 -254 11 -349 -1z" />
+                                <path
+                                    d="M5145 10889 c-80 -12 -193 -69 -252 -127 -42 -41 -1667 -2180 -1780 -2342 -24 -35 -54 -97 -69 -143 -23 -69 -27 -100 -27 -197 -1 -103 2 -124 29 -200 70 -200 212 -329 394 -362 128 -22 284 28 378 123 27 27 397 512 823 1078 l774 1030 443 0 443 1 -19 -27 c-11 -16 -769 -1026 -1684 -2246 l-1664 -2219 -1215 -1 -1214 -2 -68 -27 c-93 -38 -164 -87 -239 -166 -323 -343 -232 -974 171 -1186 134 -70 29 -66 1631 -66 1549 0 1541 0 1705 51 124 38 264 118 331 190 18 19 321 405 674 859 354 454 648 831 655 838 10 11 162 -154 768 -832 417 -465 757 -852 757 -860 0 -9 -140 -728 -311 -1598 -223 -1137 -312 -1611 -316 -1681 -21 -363 196 -688 508 -762 302 -71 612 129 718 465 11 36 180 886 376 1890 195 1004 376 1926 401 2049 40 196 45 239 46 355 0 197 -40 357 -124 486 -27 42 -731 859 -1325 1537 l-55 62 728 968 c400 532 728 969 729 971 1 1 211 -240 467 -535 256 -296 489 -560 517 -586 63 -59 178 -115 260 -127 144 -20 301 37 430 156 98 91 1610 1844 1649 1912 57 100 77 181 76 317 0 87 -5 137 -18 180 -49 163 -154 293 -292 361 -77 39 -79 39 -193 39 -104 -1 -122 -3 -174 -27 -32 -15 -77 -41 -100 -58 -24 -17 -328 -358 -677 -760 -349 -401 -638 -728 -641 -727 -4 1 -354 402 -780 891 -440 506 -796 907 -827 931 -30 24 -80 55 -111 71 -127 62 -38 58 -1401 60 -685 1 -1272 -2 -1305 -7z" />
+                            </g>
+                        </svg>&nbsp;&nbsp;SPORT</h2>
+                    <p>
+                    <h3>Více sportovišť, více sportu, více zdraví</h3>
+                    </p>
+                    <p>Podpora všech druhů sportů je pro nás prioritou. Uděláme Borky příjemným a bezpečným místem pro
+                        relax a sport.&nbsp;</p>
+                    <p>Vytvoříme sprejerům speciální plochu pro jejich aktivity&nbsp;</p>
+                    <h2 class="mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-person-heart" viewBox="0 0 16 16">
+                            <path
+                                d="M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276Z" />
+                        </svg>&nbsp;&nbsp;PODNIKÁNÍ</h2>
+                    <p>
+                    <h3>Už žádné další supermarkety</h3>
+                    </p>
+                    <p>Všichni si chceme ve městě nakoupit, zajít na masáž, ke kadeřníkovi a na oběd nebo na&nbsp;kafe.
+                        Chceme tuto různorodost a obchody a služby ve městě podporovat. Nechceme už další supermarkety,
+                        podpoříme drobné podnikatele a&nbsp;uděláme město místem pro lidi&nbsp;a pro život.</p>
+                    <p>
+                    <h3>Zelené město</h3>
+                    </p>
+                    <p>Chceme od developerů peníze na zvelebení okolí při jejich developerských projektech, ne jenom
+                        postavit kostku a tu dobře prodat. Ať zvelebí okolí staveb například malými&nbsp;parky, sochami,
+                        lavičkami a podobně.&nbsp;</p>
+
+
+
+                    <h2 class="mt-5"><img width="32" height="32" src="assets/img/ekologie.png"
+                            alt="Černobílá ikona listu">&nbsp;&nbsp;EKOLOGIE</h2>
+                    <p>
+                    <h3>Hospodaření s&nbsp;vodou</h3>
+                    </p>
+                    <p>Vybudujeme z dotací nádrže na dešťovou vodu a v období sucha jí budeme zalévat parkovou zeleň.
+                    </p>
+                    <p>
+                    <h3>Smartcity</h3>
+                    </p>
+                    <p>Uděláme pro Kolín jednu chytrou aplikaci, kde najdete všechno - parkování, úřady, odpady, lepší
+                        místo,...</p>
+                    <h2 class="mt-5"><img width="32" height="32" src="assets/img/zdravotni-pece.png"
+                            alt="Ikona pro sekci zdravotnictví">&nbsp;&nbsp;ZDRAVOTNICTVÍ</h2>
+                    <p>Zajistíme dostatek zubařů, praktiků a dětských lékařů. Postavíme k pronájmu ordinace a byty pro
+                        lékaře.
+                    <h3></h3>
+                    </p>
+                    <h2 class="mt-5"><img height="32" src="assets/img/bydleni.png"
+                            alt="Ikona pro sekci bydlení">&nbsp;&nbsp;BYDLENÍ</h2>
+                    <p>Vyřešíme v Kolíně měkkou vodu.</p>
+                    <p></p>
+
                 </div>
             </div>
+
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+
+
+                </div>
             </div>
         </section>
 
+
     </main>
+
+    <footer class="my-5 p-5">
+
+        <div class="container text-center">
+            <p>Vypracovala Česká Pirátská strana,&nbsp;Na Moráni 360/3, 128 00 Praha 2</p>
+        </div>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
